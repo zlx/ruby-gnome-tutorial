@@ -1,8 +1,8 @@
 ### 概要
 
-这个文档覆盖了 Ruby/GTK2 这个可以用于更轻松地创建图形界面的库。GTK＋ 可以在 GNOME 桌面系统上创建本地化的应用程序，能够在任何其它桌面环境运行：Linux, OSX, FreeBSD 等等；并且全程使用 Ruby，不需要额外的修改和重新编译！这个教程最早是[日语版本](http://ruby-gnome2.osdn.jp/ja/hiki.cgi?gtk2-tut)，现在是从[英文版本](http://ruby-gnome2.osdn.jp/hiki.cgi?tut-gtk)翻译过来的。 
+这个文档是关于 Ruby/GTK2 这个库，它可以让你更方便地创建图形界面。GTK＋ 可以在 GNOME 桌面系统上创建应用程序，并且能够在任何其它桌面环境上运行：Linux, OSX, FreeBSD 等等；而且全程使用 Ruby，不需要额外的修改和重新编译！这个教程最早是[日语版本](http://ruby-gnome2.osdn.jp/ja/hiki.cgi?gtk2-tut)，现在是从[英文版本](http://ruby-gnome2.osdn.jp/hiki.cgi?tut-gtk)翻译过来的。 
 
-截至2009年1月，所有的材料都在来自 Andrew Krause 的书 [《Foundations of GTK+ Development》](http://www.gtkbook.com/)，并且由 Igor Pirnovar 添加进来的。顶级目录前面的数字是该内容对应到 Andrew 的书中的章节，含有感叹号的警告标志⚠️的地方表示在当前 Ruby 1.8/GNOME2 2-0.17.0-rc1 发布的版本上例子可能有问题。
+截至2009年1月，所有的材料都来自 Andrew Krause 的书 [《Foundations of GTK+ Development》](http://www.gtkbook.com/)，并由 Igor Pirnovar 添加进来的。注意：顶级目录前面的数字是该内容对应到 Andrew 的书中的章节，含有感叹号的警告标志⚠️的地方表示该实例在当前 Ruby 1.8/GNOME2 2-0.17.0-rc1 发布的版本上可能有问题。
 
 ### 目录
 
@@ -10,20 +10,20 @@
 + 开始
 
   + Hello World
-  + 信号和回调的理念
+  + 理解信号和回调
   + 事件
-  + 深入 Hello World
+  + 深入理解 Hello World
   
 + 继续
   
   + 更多关于信号的处理
-  + 升级版 Hello World
+  + Hello World 升级版
 
 + 包装控件
   
-   + 包装盒子的理念
-   + 关于盒子的细节
-   + 包装演示程序
+   + 理解包装的盒子
+   + 关于这个盒子
+   + 一个包装的实例
    + 使用表格包装
    + 表格式包装实例
    
@@ -37,7 +37,7 @@
    + 表格
    + 固定的容器
    + 扩展器
-   + 处理式盒子
+   + 处理式盒子（Handle Boxes）
    + 记事本
    + 事件盒子
 
@@ -233,6 +233,59 @@
   + 介绍
   + 把绘画图写入到 Pixbuf 文件中
 
-+ (12.3) Ruby Cairo 教程
-+ (13) 动态用户界面
++ (12.3) Ruby Cairo 教程(top page)
+
+  + 12.3.0 介绍 Ruby Cairo 教程
+    + 12.3.0.1 用 Gtk-Cairo 框架运行这个教程中的实例代码
+      + 12.3.0.1.1 Cairo 后端
+        + 12.3.0.1.1.1 编程须知
+          + 12.3.0.1.1.1.1 学生须知
+      + 12.3.0.1.2 运行任意 Cairo 代码的模版文件
+        + 12.3.0.1.2.1 一个运行 Cairo 代码的真实例子
+      + 12.3.0.2 在非 Gtk Ruby 环境运行 Cairo 代码
+      + 12.3.0.3 Hiki Gtk With Cairo Module Download File
+    + 12.3.1 Cairo 的绘画模型
+      + 12.3.1.1 名词
+        + 12.3.1.1.1 Destination
+        + 12.3.1.1.2 Source
+        + 12.3.1.1.3 Mask
+        + 12.3.1.1.4 Path
+        + 12.3.1.1.5 Context
+      + 12.3.1.2 动词
+        + 12.3.1.2.1 Stroke
+          + 12.3.1.2.1.A1 Scale
+          + 12.3.1.2.1.A2 默认放大的实例
+          + 12.3.1.2.1.A3 经验法则
+        + 12.3.1.2.2 Fill
+        + 12.3.1.2.3 显示文本 - Glyphs
+        + 12.3.1.2.4 Paint
+          + 12.3.1.2.4.A1 Ruby Cairo 库里涂料以及颜色透明度
+        + 12.3.1.2.5 Mask
+          + 12.3.1.2.5.A1 Ruby Cairo 库不支持渐变模式
+    + 12.3.2 用 Cairo 绘画
+      + 12.3.2.1 准备或者选择一个源
+      + 12.3.2.2 创建一个路径
+    + 12.3.3 理解文本
+    + 12.3.4 理解变换
+    + 12.3.5 下一步做什么？
+    + 12.3.6 技巧和窍门
+      + 12.3.6.1 行宽
+      + 12.3.6.2 文本对其
+
++ (13) 动态的用户界面
+
+  + 创建用户界面的 Glade
+    ＋ Glade 的窗口以及菜单
+  ＋ 用 Glade 创建用户界面的实例
+    ＋ 创建窗体
+    ＋ 添加工具栏
+    ＋ 添加文件查看器
+    ＋ 做出一些改变
+    ＋ 控件信号
+    ＋ 创建菜单
+  ＋ 使用 Libglade
+  ＋ 测试一下你看懂了没有
+    ＋ 动态菜单设计的问题
+    
 + (A) 附录   
+  ＋ 计算机专业人员的数字颜色理论
