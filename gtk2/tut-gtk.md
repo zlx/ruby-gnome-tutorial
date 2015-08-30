@@ -17,7 +17,7 @@
 + 继续
   
   + 更多关于信号的处理
-  + Hello World 升级版
+  + 升级版的 Hello World
 
 + 包装控件
   
