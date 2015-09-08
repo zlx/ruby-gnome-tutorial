@@ -38,15 +38,14 @@ GLib::Instantiatable#signal_handler_disconnect 是用来移除一个已绑定�
 
 你可以用 GLib::Instantiatable#signal_handler_block 和 GLib::Instantiatable#signal_handler_unblock 来临时禁用一个回调代码块。
 
-   >> b.signal_handler_block 2
-   => #<Gtk::Button:0x40a2a858 ptr=0x8237df8>
-   >> b.signal_emit("clicked")
-   => nil
-   >> b.signal_handler_unblock 2
-   => #<Gtk::Button:0x40a2a858 ptr=0x8237df8>
-   >> b.signal_emit("clicked")
-   2
-   => nil
-   >>    
-        
+    >> b.signal_handler_block 2
+    => #<Gtk::Button:0x40a2a858 ptr=0x8237df8>
+    >> b.signal_emit("clicked")
+    => nil
+    >> b.signal_handler_unblock 2
+    => #<Gtk::Button:0x40a2a858 ptr=0x8237df8>
+    >> b.signal_emit("clicked")
+    2
+    => nil
+    >>
     
