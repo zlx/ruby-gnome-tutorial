@@ -23,8 +23,8 @@
    
     * (3) [容器控件](gtk2/tut-gtk2-contwidg.md)
       * [(基于 Andrew Krause 的书[《Foundations of GTK+ Development》](http://www.gtkbook.com/))](gtk2/tut-gtk2-contwidg.md) 
-        * [装饰容器](gtk2/tut-gtk2-contwidg.md#Decorator+Containers)
-        * [布局容器](gtk2/tut-gtk2-contwidg.md#Layout+Containers)
+        * [装饰容器](gtk2/tut-gtk2-contwidg-dc.md)
+        * [布局容器](gtk2/tut-gtk2-contwidg-lc.md)
 	  * [垂直和水平的盒子](gtk2/tut-gtk2-contwidg-hvbox.md)
 	  * [垂直和水平的面板](gtk2/tut-gtk2-contwidg-hvpane.md)
 	  * 表格
