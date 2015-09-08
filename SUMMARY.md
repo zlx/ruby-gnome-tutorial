@@ -15,7 +15,7 @@
       * [升级版的 Hello World](gtk2/tut-gtk-helloworld2.md)
    
     * [包装控件](gtk2/tut-gtk2-packing.md)
-      * [理解包装的盒子](gtk2/tut-gtk2-packing-thoery.md)
+      * [理解包装的盒子](gtk2/tut-gtk2-packing-theory.md)
       * [关于这个盒子](gtk2/tut-gtk2-packing-box-details.md)
       * [一个包装的实例](gtk2/tut-gtk2-packing-demo.md)
       * [使用表格包装](gtk2/tut-gtk2-packing-tables.md)
