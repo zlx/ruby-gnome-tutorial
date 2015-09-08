@@ -21,7 +21,7 @@
       * [使用表格包装](gtk2/tut-gtk2-packing-tables.md)
       * [表格式包装实例](gtk2/tut-gtk2-packing-tables-demo.md)
    
-    * (3) [容器控件](gtk2/tut-gtk2-contwidg.md)
+    * [(3) 容器控件](gtk2/tut-gtk2-contwidg.md)
       * [(基于 Andrew Krause 的书[《Foundations of GTK+ Development》](http://www.gtkbook.com/))](gtk2/tut-gtk2-contwidg.md) 
         * [装饰容器](gtk2/tut-gtk2-contwidg-dc.md)
         * [布局容器](gtk2/tut-gtk2-contwidg-lc.md)
