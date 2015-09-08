@@ -10,7 +10,7 @@
       * [事件](gtk2/tut-gtk-events.md)
       * [深入理解 Hello World](gtk2/tut-gtk-helloworld-details.md)
    
-    * [继续]()
+    * 继续
       * [更多关于信号的处理](gtk2/tut-gtk-signals-more.md)
       * [升级版的 Hello World](gtk2/tut-gtk-helloworld2.md)
    
@@ -21,18 +21,18 @@
       * [使用表格包装](gtk2/tut-gtk2-packing-tables.md)
       * [表格式包装实例](gtk2/tut-gtk2-packing-tables-demo.md)
    
-    * (3) [容器控件]()
-      * (基于 Andrew Krause 的书[《Foundations of GTK+ Development》](http://www.gtkbook.com/)) 
+    * (3) [容器控件](gtk2/tut-gtk2-contwidg.md)
+      * [(基于 Andrew Krause 的书[《Foundations of GTK+ Development》](http://www.gtkbook.com/))](gtk2/tut-gtk2-contwidg.md) 
         * 装饰容器
         * 布局容器
-	   + 垂直和水平的盒子
-	   + 垂直和水平的面板
-	   + 表格
-	   + 固定的容器
-	   + 扩展器
-	   + 处理式盒子（Handle Boxes）
-	   + 记事本
-	   + 事件盒子
+	  * 垂直和水平的盒子
+	  * 垂直和水平的面板
+	  * 表格
+	  * 固定的容器
+	  * 扩展器
+	  * 处理式盒子（Handle Boxes）
+	  * 记事本
+	  * 事件盒子
 	
 	+ (4) 基本控件
 	
