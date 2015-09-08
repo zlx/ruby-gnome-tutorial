@@ -7,6 +7,8 @@
     * [开始](gtk2/tut-gtk-intro.md)
       * [Hello World](gtk2/tut-gtk-helloworld.md)
       * [理解信号和回调机制]()
+      * [事件]()
+      * [深入理解 Hello World]()
    
     * [继续]()
       * [更多关于信号的处理]()
