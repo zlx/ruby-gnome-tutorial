@@ -37,3 +37,18 @@ Ruby 的主要作者时：
 
 Ruby-GNOME2 是用 Ruby 语言来调用 GTK 库的一种实现，就像一些 GNOME 库一样。 Ruby-GNOME2 提供了一种方式，可以让你用来写任何 Ruby 可以写的东西的前端窗口。
 
+Ruby-GNOME2 的主要作者是：
+
++ Masahiro Sakai
++ Masao Mutoh
++ Takehiro Kubo
+
+
+## 关于这个教程
+
+GTK 可以被很多语言调用，比如说 C++, Guile, Perl, Python, TOM, Ada95, Objective C, Free Pascal, Eiffel, Java 和 C#。这篇文章包含了 Ruby/GTK2, GTK 库第二版的 Ruby 绑定。
+
+读者要具备一些基本的 Ruby 知识。如果有一些窗口编程经验就更好了，但这不是必须的。
+
+这份文档还在建设中，如果你有什么问题，不要犹豫，大胆在邮件列表中评论或者提问。任何反馈都将不胜感激。
+
