@@ -27,7 +27,7 @@
         * [布局容器](gtk2/tut-gtk2-contwidg-lc.md)
 	  * [垂直和水平的盒子](gtk2/tut-gtk2-contwidg-hvbox.md)
 	  * [垂直和水平的面板](gtk2/tut-gtk2-contwidg-hvpane.md)
-	  * 表格
+	  * [表格](gtk2/tut-gtk2-contwidg-tables.md)
 	  * 固定的容器
 	  * 扩展器
 	  * 处理式盒子（Handle Boxes）
