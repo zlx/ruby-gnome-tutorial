@@ -35,5 +35,5 @@ Ruby 的主要作者时：
 
 + Yukihiro Matsumoto (Matz)
 
-Ruby-GNOME2 是用 Ruby 语言来调用 GTK 库的一种实现，就像一些 GNOME 库一样。 Ruby-GNOME2 提供了一种方式，可以让你用来写任何 Ruby 可以写的东西前端窗口。
+Ruby-GNOME2 是用 Ruby 语言来调用 GTK 库的一种实现，就像一些 GNOME 库一样。 Ruby-GNOME2 提供了一种方式，可以让你用来写任何 Ruby 可以写的东西的前端窗口。
 
