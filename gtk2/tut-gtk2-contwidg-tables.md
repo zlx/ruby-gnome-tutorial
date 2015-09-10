@@ -8,3 +8,4 @@
 
 ![contwidg-table-grid-s1](gtk2/contwidg-table-grid-s1.png)
 
+这个例子说明了表格允许一个控件跨域多个行和列提供了钜形布局这个事实。当你阅读下面的程序时，请关注 Gtk::Table#table_attach 这个方法。特别是 left, right, top, bottom 这几个参数的顺序。这些参数定义了表格中独立的单元格。事实上，首先要知道的点是 (0, 0) 表示左上角。其他的点则用 left， right， top， bottom 分别代表(x1, x2） 和 (y1, y2) 来表示表格的坐标 ，当然，我们更熟悉的是基础数学课上学到的表示点的方式 (x1, y1) 和 (x2, y2)
