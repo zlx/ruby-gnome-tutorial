@@ -31,7 +31,7 @@
 	  * [固定的容器](gtk2/tut-gtk2-contwidg-fixedcont.md)
 	  * [扩展器](gtk2/tut-gtk2-contwidg-expanders.md)
 	  * [处理盒子](gtk2/tut-gtk2-contwidg-handlebox.md)
-	  * 记事本
+	  * [记事本](gtk2/tut-gtk2-contwidg-notebooks.md)
 	  * 事件盒子
 	
 	+ (4) 基本控件
