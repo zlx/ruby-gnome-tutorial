@@ -6,9 +6,9 @@
 
 到目前为止，除了[用表格包装]()中提到的以外，所有布局容器都允许我们在二维空间内包装。Gtk::Table 比使用多个 Gtk::HBox 和 Gtk::VBox 包装的优势在于相邻的行列中的子控件是自动对齐的。但是有时候，这并不是你希望的，所以盒子就变成了最好的选择。虽然如此，这里我们只专注于 Gtk::Table 类。下面的表和程序中展示了在一个简单表中排列着三个控件：
 
-![contwidg-table-grid-s1](gtk2/contwidg-table-grid-s1.png)
+![contwidg-table-grid-s1](contwidg-table-grid-s1.png)
 
-这个例子说明了表格允许一个控件跨域多个行和列提供了钜形布局这个事实。当你阅读下面的程序时，请关注 Gtk::Table#table_attach 这个方法。特别是 left, right, top, bottom 这几个参数的顺序。这些参数定义了表格中独立的单元格。事实上，首先要知道的点是 (0, 0) 表示左上角。其他的点则用 left， right， top， bottom 分别代表(x1, x2） 和 (y1, y2) 来表示表格的坐标 ，当然，我们更熟悉的是基础数学课上学到的表示点的方式,也就是 (x1, y1) 和 (x2, y2)。![contwidg-tables](gtk2/contwidg-tables.png) 为了理解 Gtk::Tables, 你需要转换思维模式。参见上图，每个单元格用 (x1, x2) 和 (y1, y2) 这样的坐标对来标识，而不是我们标准数学坐标的形式 (x, y)。
+这个例子说明了表格允许一个控件跨域多个行和列提供了钜形布局这个事实。当你阅读下面的程序时，请关注 Gtk::Table#table_attach 这个方法。特别是 left, right, top, bottom 这几个参数的顺序。这些参数定义了表格中独立的单元格。事实上，首先要知道的点是 (0, 0) 表示左上角。其他的点则用 left， right， top， bottom 分别代表(x1, x2） 和 (y1, y2) 来表示表格的坐标 ，当然，我们更熟悉的是基础数学课上学到的表示点的方式,也就是 (x1, y1) 和 (x2, y2)。![contwidg-tables](contwidg-tables.png) 为了理解 Gtk::Tables, 你需要转换思维模式。参见上图，每个单元格用 (x1, x2) 和 (y1, y2) 这样的坐标对来标识，而不是我们标准数学坐标的形式 (x, y)。
 
 以下是按照右上角图示一样摆放控件的程序实现。
 

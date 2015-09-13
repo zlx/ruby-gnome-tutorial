@@ -29,8 +29,8 @@
 	  * [垂直和水平的面板](gtk2/tut-gtk2-contwidg-hvpane.md)
 	  * [表格](gtk2/tut-gtk2-contwidg-tables.md)
 	  * [固定的容器](gtk2/tut-gtk2-contwidg-fixedcont.md)
-	  * 扩展器
-	  * 处理式盒子（Handle Boxes）
+	  * [扩展器](gtk2/tut-gtk2-contwidg-expanders.md)
+	  * [处理式盒子（Handle Boxes）]()
 	  * 记事本
 	  * 事件盒子
 	
