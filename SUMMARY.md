@@ -32,7 +32,7 @@
 	  * [扩展器](gtk2/tut-gtk2-contwidg-expanders.md)
 	  * [处理盒子](gtk2/tut-gtk2-contwidg-handlebox.md)
 	  * [记事本](gtk2/tut-gtk2-contwidg-notebooks.md)
-	  * 事件盒子
+	  * [事件盒子](gtk2/tut-gtk2-contwidg-eventbox.md)
 	
 	+ (4) 基本控件
 	
