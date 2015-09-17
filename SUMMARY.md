@@ -34,10 +34,9 @@
 	  * [记事本](gtk2/tut-gtk2-contwidg-notebooks.md)
 	  * [事件盒子](gtk2/tut-gtk2-contwidg-eventbox.md)
 	
-	+ (4) 基本控件
+	+ (4) [基本控件](gtk2/tut-gtk2-btt.md)
 	
-	   + 4.1 开关按钮
-	     + 4.1.1 助记符
+	   + 4.1 [开关按钮](gtk2/tut-gtk2-btt-toggle.md)
 	   + 4.2 多选按钮
 	     + 4.3 使用 Stock Items
 	     + 4.5 回调盒事件处理
