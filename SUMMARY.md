@@ -42,8 +42,8 @@
 	   * [4.7 ** 不是按钮但是和按钮隐性相关的](gtk2/tut-gtk2-btt-bttbox.md)  
 	   * [4.8 ** Font 按钮(在选择器下面...)（!）](gtk2/tut-gtk2-fichoo-fontbtt.md)
 	   * [4.9 数字和文本数据输入](gtk2/tut-gtk2-numtxt.md)
-	   * 4.10 单行输入框
-	   * 4.11 旋转按钮
+	   * [4.10 单行输入框](gtk2/tut-gtk2-numtxt-entry.md)
+	   * [4.11 旋转按钮](gtk2/tut-gtk2-numtxt-spinbttns.md)
 	   * 4.12 垂直和水平方向放大
 	   * 4.13 选择接口和控件
 	   * 4.15 文件选择按钮
