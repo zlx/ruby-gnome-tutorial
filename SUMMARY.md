@@ -42,15 +42,15 @@
 	   * [4.7 ** 不是按钮但是和按钮隐性相关的](gtk2/tut-gtk2-btt-bttbox.md)  
 	   * [4.8 ** Font 按钮(在选择器下面...)（!）](gtk2/tut-gtk2-fichoo-fontbtt.md)
 	   * [4.9 数字和文本数据输入](gtk2/tut-gtk2-numtxt.md)
-	   * [4.10 单行输入框](gtk2/tut-gtk2-numtxt-entry.md)
-	   * [4.11 旋转按钮](gtk2/tut-gtk2-numtxt-spinbttns.md)
-	   * 4.12 垂直和水平方向放大
-	   * 4.13 选择接口和控件
-	   * 4.15 文件选择按钮
-	   * 4.16 颜色按钮
-	     * 4.16.1 修改一个控件的前景色
-	   * 4.17 Font 按钮(!)                                          ⚠️  
-	   * 4.18 测试一下你看懂了没有
+	     * [4.10 单行输入框](gtk2/tut-gtk2-numtxt-entry.md)
+	     * [4.11 旋转按钮](gtk2/tut-gtk2-numtxt-spinbttns.md)
+	     * [4.12 垂直和水平方向放大](gtk2/tut-gtk2-numtxt-hvscales.md)
+	   * [4.13 选择器接口和控件](gtk2/tut-gtk2-selchoose.md)
+	     * 4.15 文件选择按钮
+	     * 4.16 颜色按钮
+	       * 4.16.1 修改一个控件的前景色
+	     * 4.17 Font 按钮(!)                                          ⚠️  
+	   * 4.18 测试一下
 	
 	+ (5) 对话框
 	
